@@ -49,22 +49,46 @@ header {
 .contenedor-galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .juegos {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
     text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
  .juegos img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+ }
+
+ juegos h3, juegos p {
+     padding: 0 10px;
+     text-align: center;
+ }
+
+ juegos h3 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+ }
+
+ .juegos:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
  }
 
