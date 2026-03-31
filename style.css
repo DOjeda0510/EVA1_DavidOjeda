@@ -17,3 +17,32 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+header {
+    background-color: #DC143C;
+    border: 3px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+#formulario-contacto label {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#formulario-contacto button {
+    align-self: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
