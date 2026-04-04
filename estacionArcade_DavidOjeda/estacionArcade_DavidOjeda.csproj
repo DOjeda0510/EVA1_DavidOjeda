@@ -7,27 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\v18\DocumentLayout.backup.json" />
-    <Content Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\v18\DocumentLayout.json" />
-    <Content Include="wwwroot\.vs\ProjectSettings.json" />
-    <Content Include="wwwroot\.vs\VSWorkspaceState.json" />
+    <Compile Remove="wwwroot\.vs\**" />
+    <Content Remove="wwwroot\.vs\**" />
+    <EmbeddedResource Remove="wwwroot\.vs\**" />
+    <None Remove="wwwroot\.vs\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\config\applicationhost.config" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\FileContentIndex\2b14654d-ea13-4d6a-9754-275db1352cce.vsidx" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\FileContentIndex\7ed45787-58da-40d0-8d43-ef8d90410487.vsidx" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\FileContentIndex\86b2c9c0-8684-4f1f-9eaa-79df9febdbbe.vsidx" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\FileContentIndex\a13d9351-038d-4ee6-aac9-a1d371fe768a.vsidx" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\FileContentIndex\cdec361c-b05e-4146-a952-4f8e9dc2f6b2.vsidx" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda\CopilotIndices\18.4.111.64248\CodeChunks.db" />
-    <None Include="wwwroot\.vs\EVA1_DavidOjeda\CopilotIndices\18.4.111.64248\SemanticSymbols.db" />
-    <None Include="wwwroot\.vs\slnx.sqlite" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\.vs\EVA1_DavidOjeda.slnx\copilot-chat\684c27be\sessions\" />
-    <Folder Include="wwwroot\pagina\videos\" />
+    <Content Update="wwwroot\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
